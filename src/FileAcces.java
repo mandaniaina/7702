@@ -1,5 +1,4 @@
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -10,12 +9,14 @@ import java.util.List;
 public class FileAcces {
     public static void WriteListIn(String nomFichier, List<String> toWrite) {
 
-        File fichierTexte = new File (nomFichier+".txt");
+        //the file to write
+        File file = new File (nomFichier+".txt");
         FileWriter writer;
 
         try{
-            writer = new FileWriter(fichierTexte);
+            writer = new FileWriter(file);
             for (String s:toWrite) {
+                //write all string in the list
                 writer.write(s+"\n");
             }
             writer.close();
