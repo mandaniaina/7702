@@ -1,0 +1,404 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes -D
+Relation:     spam-dev-e16-weka.filters.supervised.instance.Resample-B1.0-S1-Z100.0-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P50.0
+Instances:    1380
+Attributes:   58
+              word_freq_make:
+              word_freq_address:
+              word_freq_all:
+              word_freq_3d:
+              word_freq_our:
+              word_freq_over:
+              word_freq_remove:
+              word_freq_internet:
+              word_freq_order:
+              word_freq_mail:
+              word_freq_receive:
+              word_freq_will:
+              word_freq_people:
+              word_freq_report:
+              word_freq_addresses:
+              word_freq_free:
+              word_freq_business:
+              word_freq_email:
+              word_freq_you:
+              word_freq_credit:
+              word_freq_your:
+              word_freq_font:
+              word_freq_000:
+              word_freq_money:
+              word_freq_hp:
+              word_freq_hpl:
+              word_freq_george:
+              word_freq_650:
+              word_freq_lab:
+              word_freq_labs:
+              word_freq_telnet:
+              word_freq_857:
+              word_freq_data:
+              word_freq_415:
+              word_freq_85:
+              word_freq_technology:
+              word_freq_1999:
+              word_freq_parts:
+              word_freq_pm:
+              word_freq_direct:
+              word_freq_cs:
+              word_freq_meeting:
+              word_freq_original:
+              word_freq_project:
+              word_freq_re:
+              word_freq_edu:
+              word_freq_table:
+              word_freq_conference:
+              char_freq_;:
+              char_freq_(:
+              char_freq_[:
+              char_freq_!:
+              char_freq_$:
+              char_freq_#:
+              capital_run_length_average:
+              capital_run_length_longest:
+              capital_run_length_total:
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                               Class
+Attribute                          1      0
+                              (0.51) (0.49)
+============================================
+word_freq_make:
+  '(-inf-0.055]'                460.0  589.0
+  '(0.055-inf)'                 243.0   92.0
+  [total]                       703.0  681.0
+
+word_freq_address:
+  '(-inf-0.075]'                468.0  639.0
+  '(0.075-5.55]'                235.0   29.0
+  '(5.55-inf)'                    1.0   14.0
+  [total]                       704.0  682.0
+
+word_freq_all:
+  '(-inf-0.235]'                341.0  517.0
+  '(0.235-inf)'                 362.0  164.0
+  [total]                       703.0  681.0
+
+word_freq_3d:
+  'All'                         702.0  680.0
+  [total]                       702.0  680.0
+
+word_freq_our:
+  '(-inf-0.065]'                284.0  538.0
+  '(0.065-inf)'                 419.0  143.0
+  [total]                       703.0  681.0
+
+word_freq_over:
+  '(-inf-0.085]'                469.0  617.0
+  '(0.085-inf)'                 234.0   64.0
+  [total]                       703.0  681.0
+
+word_freq_remove:
+  '(-inf-0.015]'                431.0  673.0
+  '(0.015-inf)'                 272.0    8.0
+  [total]                       703.0  681.0
+
+word_freq_internet:
+  '(-inf-0.01]'                 492.0  637.0
+  '(0.01-inf)'                  211.0   44.0
+  [total]                       703.0  681.0
+
+word_freq_order:
+  '(-inf-0.025]'                477.0  635.0
+  '(0.025-inf)'                 226.0   46.0
+  [total]                       703.0  681.0
+
+word_freq_mail:
+  '(-inf-0.045]'                385.0  591.0
+  '(0.045-inf)'                 318.0   90.0
+  [total]                       703.0  681.0
+
+word_freq_receive:
+  '(-inf-0.035]'                498.0  656.0
+  '(0.035-inf)'                 205.0   25.0
+  [total]                       703.0  681.0
+
+word_freq_will:
+  '(-inf-0.245]'                286.0  420.0
+  '(0.245-1.555]'               369.0  190.0
+  '(1.555-inf)'                  49.0   72.0
+  [total]                       704.0  682.0
+
+word_freq_people:
+  '(-inf-0.095]'                509.0  609.0
+  '(0.095-inf)'                 194.0   72.0
+  [total]                       703.0  681.0
+
+word_freq_report:
+  '(-inf-0.025]'                627.0  655.0
+  '(0.025-inf)'                  76.0   26.0
+  [total]                       703.0  681.0
+
+word_freq_addresses:
+  '(-inf-0.025]'                604.0  676.0
+  '(0.025-inf)'                  99.0    5.0
+  [total]                       703.0  681.0
+
+word_freq_free:
+  '(-inf-0.075]'                319.0  626.0
+  '(0.075-inf)'                 384.0   55.0
+  [total]                       703.0  681.0
+
+word_freq_business:
+  '(-inf-0.165]'                481.0  653.0
+  '(0.165-inf)'                 222.0   28.0
+  [total]                       703.0  681.0
+
+word_freq_email:
+  '(-inf-0.075]'                456.0  605.0
+  '(0.075-inf)'                 247.0   76.0
+  [total]                       703.0  681.0
+
+word_freq_you:
+  '(-inf-0.025]'                 91.0  290.0
+  '(0.025-1.195]'               101.0  135.0
+  '(1.195-inf)'                 512.0  257.0
+  [total]                       704.0  682.0
+
+word_freq_credit:
+  '(-inf-0.035]'                569.0  672.0
+  '(0.035-inf)'                 134.0    9.0
+  [total]                       703.0  681.0
+
+word_freq_your:
+  '(-inf-0.405]'                180.0  517.0
+  '(0.405-1.095]'               157.0   84.0
+  '(1.095-inf)'                 367.0   81.0
+  [total]                       704.0  682.0
+
+word_freq_font:
+  '(-inf-0.06]'                 662.0  677.0
+  '(0.06-inf)'                   41.0    4.0
+  [total]                       703.0  681.0
+
+word_freq_000:
+  '(-inf-0.045]'                481.0  670.0
+  '(0.045-0.26]'                 50.0   10.0
+  '(0.26-inf)'                  173.0    2.0
+  [total]                       704.0  682.0
+
+word_freq_money:
+  '(-inf-0.035]'                435.0  666.0
+  '(0.035-inf)'                 268.0   15.0
+  [total]                       703.0  681.0
+
+word_freq_hp:
+  '(-inf-0.385]'                691.0  466.0
+  '(0.385-inf)'                  12.0  215.0
+  [total]                       703.0  681.0
+
+word_freq_hpl:
+  '(-inf-0.105]'                690.0  502.0
+  '(0.105-inf)'                  13.0  179.0
+  [total]                       703.0  681.0
+
+word_freq_george:
+  '(-inf-0.01]'                 699.0  487.0
+  '(0.01-inf)'                    4.0  194.0
+  [total]                       703.0  681.0
+
+word_freq_650:
+  '(-inf-0.485]'                700.0  606.0
+  '(0.485-inf)'                   3.0   75.0
+  [total]                       703.0  681.0
+
+word_freq_lab:
+  '(-inf-0.125]'                701.0  611.0
+  '(0.125-inf)'                   2.0   70.0
+  [total]                       703.0  681.0
+
+word_freq_labs:
+  '(-inf-0.205]'                699.0  587.0
+  '(0.205-inf)'                   4.0   94.0
+  [total]                       703.0  681.0
+
+word_freq_telnet:
+  '(-inf-0.08]'                 701.0  625.0
+  '(0.08-inf)'                    2.0   56.0
+  [total]                       703.0  681.0
+
+word_freq_857:
+  '(-inf-0.12]'                 700.0  640.0
+  '(0.12-inf)'                    3.0   41.0
+  [total]                       703.0  681.0
+
+word_freq_data:
+  '(-inf-0.215]'                686.0  607.0
+  '(0.215-inf)'                  17.0   74.0
+  [total]                       703.0  681.0
+
+word_freq_415:
+  '(-inf-0.18]'                 702.0  640.0
+  '(0.18-inf)'                    1.0   41.0
+  [total]                       703.0  681.0
+
+word_freq_85:
+  '(-inf-0.235]'                697.0  593.0
+  '(0.235-inf)'                   6.0   88.0
+  [total]                       703.0  681.0
+
+word_freq_technology:
+  '(-inf-0.085]'                664.0  576.0
+  '(0.085-inf)'                  39.0  105.0
+  [total]                       703.0  681.0
+
+word_freq_1999:
+  '(-inf-0.03]'                 667.0  508.0
+  '(0.03-inf)'                   36.0  173.0
+  [total]                       703.0  681.0
+
+word_freq_parts:
+  'All'                         702.0  680.0
+  [total]                       702.0  680.0
+
+word_freq_pm:
+  '(-inf-0.215]'                691.0  624.0
+  '(0.215-inf)'                  12.0   57.0
+  [total]                       703.0  681.0
+
+word_freq_direct:
+  'All'                         702.0  680.0
+  [total]                       702.0  680.0
+
+word_freq_cs:
+  '(-inf-0.05]'                 702.0  644.0
+  '(0.05-inf)'                    1.0   37.0
+  [total]                       703.0  681.0
+
+word_freq_meeting:
+  '(-inf-0.465]'                702.0  621.0
+  '(0.465-inf)'                   1.0   60.0
+  [total]                       703.0  681.0
+
+word_freq_original:
+  '(-inf-0.205]'                696.0  633.0
+  '(0.205-inf)'                   7.0   48.0
+  [total]                       703.0  681.0
+
+word_freq_project:
+  '(-inf-0.395]'                702.0  640.0
+  '(0.395-inf)'                   1.0   41.0
+  [total]                       703.0  681.0
+
+word_freq_re:
+  '(-inf-1.54]'                 699.0  619.0
+  '(1.54-inf)'                    4.0   62.0
+  [total]                       703.0  681.0
+
+word_freq_edu:
+  '(-inf-0.115]'                687.0  569.0
+  '(0.115-inf)'                  16.0  112.0
+  [total]                       703.0  681.0
+
+word_freq_table:
+  'All'                         702.0  680.0
+  [total]                       702.0  680.0
+
+word_freq_conference:
+  '(-inf-0.01]'                 700.0  640.0
+  '(0.01-inf)'                    3.0   41.0
+  [total]                       703.0  681.0
+
+char_freq_;:
+  'All'                         702.0  680.0
+  [total]                       702.0  680.0
+
+char_freq_(:
+  '(-inf-0.0185]'               256.0  321.0
+  '(0.0185-0.1425]'             275.0  102.0
+  '(0.1425-0.2745]'             114.0  128.0
+  '(0.2745-inf)'                 60.0  132.0
+  [total]                       705.0  683.0
+
+char_freq_[:
+  '(-inf-0.0325]'               665.0  595.0
+  '(0.0325-inf)'                 38.0   86.0
+  [total]                       703.0  681.0
+
+char_freq_!:
+  '(-inf-0.005]'                134.0  485.0
+  '(0.005-0.0915]'               62.0   66.0
+  '(0.0915-0.4465]'             217.0  102.0
+  '(0.4465-inf)'                292.0   30.0
+  [total]                       705.0  683.0
+
+char_freq_$:
+  '(-inf-0.0345]'               305.0  651.0
+  '(0.0345-0.089]'               57.0   16.0
+  '(0.089-inf)'                 342.0   15.0
+  [total]                       704.0  682.0
+
+char_freq_#:
+  '(-inf-0.0065]'               513.0  632.0
+  '(0.0065-inf)'                190.0   49.0
+  [total]                       703.0  681.0
+
+capital_run_length_average:
+  '(-inf-1.3035]'                25.0  178.0
+  '(1.3035-2.0105]'              95.0  228.0
+  '(2.0105-3.4745]'             203.0  219.0
+  '(3.4745-4.488]'              122.0   41.0
+  '(4.488-inf)'                 261.0   18.0
+  [total]                       706.0  684.0
+
+capital_run_length_longest:
+  '(-inf-9.5]'                   62.0  369.0
+  '(9.5-18.5]'                  151.0  174.0
+  '(18.5-53.5]'                 191.0  106.0
+  '(53.5-111]'                  153.0   31.0
+  '(111-inf)'                   149.0    4.0
+  [total]                       706.0  684.0
+
+capital_run_length_total:
+  '(-inf-22.5]'                  23.0  207.0
+  '(22.5-106.5]'                170.0  274.0
+  '(106.5-215]'                 164.0  106.0
+  '(215-inf)'                   348.0   96.0
+  [total]                       705.0  683.0
+
+
+
+Time taken to build model: 0.09 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.06 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1246               90.2899 %
+Incorrectly Classified Instances       134                9.7101 %
+Kappa statistic                          0.8056
+Mean absolute error                      0.0999
+Root mean squared error                  0.2927
+Relative absolute error                 19.975  %
+Root relative squared error             58.5143 %
+Total Number of Instances             1380     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,870    0,066    0,928      0,870    0,898      0,807    0,973     0,973     1
+                 0,934    0,130    0,882      0,934    0,907      0,807    0,973     0,974     0
+Weighted Avg.    0,903    0,098    0,904      0,903    0,903      0,807    0,973     0,974     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 591  88 |   a = 1
+  46 655 |   b = 0
+

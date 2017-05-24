@@ -1,0 +1,2 @@
+TrainK9NoWeight(KNN) -> La pente descendait de 1 à 7 puis a remonté à 9
+TrainK13NoWeight(KNN) -> La pente redescend

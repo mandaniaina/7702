@@ -1,0 +1,1283 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes -K
+Relation:     spam-dev-e16-weka.filters.supervised.instance.Resample-B1.0-S1-Z100.0-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.RemovePercentage-P50.0-weka.filters.supervised.instance.Resample-B1.0-S1-Z50.0-weka.filters.supervised.instance.Resample-B1.0-S1-Z50.0-weka.filters.unsupervised.attribute.AddNoise-Clast-P5-S1
+Instances:    344
+Attributes:   58
+              word_freq_make:
+              word_freq_address:
+              word_freq_all:
+              word_freq_3d:
+              word_freq_our:
+              word_freq_over:
+              word_freq_remove:
+              word_freq_internet:
+              word_freq_order:
+              word_freq_mail:
+              word_freq_receive:
+              word_freq_will:
+              word_freq_people:
+              word_freq_report:
+              word_freq_addresses:
+              word_freq_free:
+              word_freq_business:
+              word_freq_email:
+              word_freq_you:
+              word_freq_credit:
+              word_freq_your:
+              word_freq_font:
+              word_freq_000:
+              word_freq_money:
+              word_freq_hp:
+              word_freq_hpl:
+              word_freq_george:
+              word_freq_650:
+              word_freq_lab:
+              word_freq_labs:
+              word_freq_telnet:
+              word_freq_857:
+              word_freq_data:
+              word_freq_415:
+              word_freq_85:
+              word_freq_technology:
+              word_freq_1999:
+              word_freq_parts:
+              word_freq_pm:
+              word_freq_direct:
+              word_freq_cs:
+              word_freq_meeting:
+              word_freq_original:
+              word_freq_project:
+              word_freq_re:
+              word_freq_edu:
+              word_freq_table:
+              word_freq_conference:
+              char_freq_;:
+              char_freq_(:
+              char_freq_[:
+              char_freq_!:
+              char_freq_$:
+              char_freq_#:
+              capital_run_length_average:
+              capital_run_length_longest:
+              capital_run_length_total:
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                      Class
+Attribute                                 1             0
+                                      (0.5)         (0.5)
+==========================================================
+word_freq_make:
+  [# kernels]                             18            13
+  [std. dev]                          0.0938        0.0938
+  [precision]                         0.0362        0.0362
+  K1: mean (weight)                  0 (115)       0 (139)
+  K2: mean (weight)               0.0362 (1)    0.0724 (6)
+  K3: mean (weight)               0.0724 (3)    0.1447 (5)
+  K4: mean (weight)              0.1085 (13)    0.1809 (3)
+  K5: mean (weight)               0.1447 (2)    0.2171 (4)
+  K6: mean (weight)               0.1809 (8)    0.2532 (1)
+  K7: mean (weight)               0.2171 (6)    0.3256 (4)
+  K8: mean (weight)               0.3256 (5)    0.3618 (3)
+  K9: mean (weight)               0.3979 (1)    0.5426 (2)
+  K10: mean (weight)              0.4341 (4)    0.7959 (1)
+  K11: mean (weight)              0.4703 (1)    0.8321 (1)
+  K12: mean (weight)              0.5065 (1)    0.9768 (2)
+  K13: mean (weight)              0.6512 (1)      1.23 (1)
+  K14: mean (weight)              0.7235 (1)            --
+  K15: mean (weight)              0.7959 (6)            --
+  K16: mean (weight)              1.0491 (1)            --
+  K17: mean (weight)              1.1576 (1)            --
+  K18: mean (weight)                1.23 (2)            --
+
+word_freq_address:
+  [# kernels]                              6             5
+  [std. dev]                          0.1905        1.0888
+  [precision]                          0.357         0.357
+  K1: mean (weight)                  0 (113)       0 (163)
+  K2: mean (weight)               0.357 (41)     0.357 (3)
+  K3: mean (weight)               0.714 (10)     0.714 (4)
+  K4: mean (weight)                1.071 (3)     1.785 (1)
+  K5: mean (weight)                1.428 (2)     14.28 (1)
+  K6: mean (weight)                2.499 (3)            --
+
+word_freq_all:
+  [# kernels]                             29            26
+  [std. dev]                          0.2304        0.2623
+  [precision]                         0.0465        0.0465
+  K1: mean (weight)                   0 (71)       0 (105)
+  K2: mean (weight)                0.093 (2)     0.093 (4)
+  K3: mean (weight)               0.1395 (2)    0.1395 (3)
+  K4: mean (weight)               0.1859 (7)    0.1859 (7)
+  K5: mean (weight)               0.2324 (4)    0.2324 (7)
+  K6: mean (weight)               0.2789 (8)    0.2789 (3)
+  K7: mean (weight)               0.3254 (5)    0.3254 (2)
+  K8: mean (weight)               0.3719 (3)    0.3719 (3)
+  K9: mean (weight)              0.4184 (10)    0.4184 (4)
+  K10: mean (weight)              0.4649 (4)    0.5114 (1)
+  K11: mean (weight)              0.5114 (2)    0.5578 (1)
+  K12: mean (weight)              0.5578 (3)    0.6043 (2)
+  K13: mean (weight)              0.6973 (5)    0.6973 (4)
+  K14: mean (weight)              0.7438 (4)    0.7903 (5)
+  K15: mean (weight)             0.7903 (10)    0.8368 (3)
+  K16: mean (weight)              0.8368 (1)    0.8832 (1)
+  K17: mean (weight)              0.8832 (2)    1.0227 (2)
+  K18: mean (weight)              0.9762 (2)    1.1622 (1)
+  K19: mean (weight)              1.0227 (7)    1.3016 (1)
+  K20: mean (weight)              1.0692 (2)    1.4411 (3)
+  K21: mean (weight)              1.1157 (2)    1.5805 (2)
+  K22: mean (weight)              1.1622 (2)     1.627 (1)
+  K23: mean (weight)              1.2551 (1)    1.9524 (2)
+  K24: mean (weight)              1.3016 (6)    2.0454 (3)
+  K25: mean (weight)              1.3481 (1)    2.6497 (1)
+  K26: mean (weight)              1.4411 (1)      3.44 (1)
+  K27: mean (weight)              1.5805 (1)            --
+  K28: mean (weight)               1.813 (3)            --
+  K29: mean (weight)              3.0216 (1)            --
+
+word_freq_3d:
+  [# kernels]                              2             1
+  [std. dev]                          1.5044        0.8221
+  [precision]                         4.9325        4.9325
+  K1: mean (weight)                  0 (169)       0 (172)
+  K2: mean (weight)                19.73 (3)            --
+
+word_freq_our:
+  [# kernels]                             35            19
+  [std. dev]                          0.2248        0.3172
+  [precision]                         0.0527        0.0527
+  K1: mean (weight)                   0 (65)       0 (129)
+  K2: mean (weight)               0.0527 (1)    0.0527 (4)
+  K3: mean (weight)               0.1053 (2)    0.1053 (2)
+  K4: mean (weight)                0.158 (5)     0.158 (1)
+  K5: mean (weight)               0.2106 (4)    0.2106 (4)
+  K6: mean (weight)               0.2633 (8)    0.2633 (2)
+  K7: mean (weight)               0.3159 (4)    0.3159 (1)
+  K8: mean (weight)               0.3686 (8)    0.3686 (5)
+  K9: mean (weight)               0.4213 (4)    0.4213 (4)
+  K10: mean (weight)              0.4739 (2)    0.5266 (3)
+  K11: mean (weight)              0.5266 (2)    0.6319 (2)
+  K12: mean (weight)              0.5792 (4)    0.7372 (1)
+  K13: mean (weight)              0.6319 (3)    0.7899 (1)
+  K14: mean (weight)              0.6846 (1)    0.8425 (1)
+  K15: mean (weight)              0.7372 (2)    0.8952 (2)
+  K16: mean (weight)              0.7899 (9)    1.2638 (3)
+  K17: mean (weight)              0.8425 (2)    1.6324 (1)
+  K18: mean (weight)              1.0532 (1)    2.0537 (3)
+  K19: mean (weight)              1.1058 (7)      4.16 (3)
+  K20: mean (weight)              1.1585 (1)            --
+  K21: mean (weight)              1.2111 (3)            --
+  K22: mean (weight)              1.2638 (4)            --
+  K23: mean (weight)              1.3165 (5)            --
+  K24: mean (weight)              1.3691 (2)            --
+  K25: mean (weight)              1.4218 (1)            --
+  K26: mean (weight)              1.4744 (5)            --
+  K27: mean (weight)              1.5271 (1)            --
+  K28: mean (weight)              1.5797 (4)            --
+  K29: mean (weight)              1.6324 (4)            --
+  K30: mean (weight)               2.159 (2)            --
+  K31: mean (weight)              2.2116 (1)            --
+  K32: mean (weight)              2.2643 (1)            --
+  K33: mean (weight)              2.4749 (1)            --
+  K34: mean (weight)              2.6329 (2)            --
+  K35: mean (weight)              2.9489 (1)            --
+
+word_freq_over:
+  [# kernels]                             18            11
+  [std. dev]                          0.1433         0.093
+  [precision]                         0.0508        0.0508
+  K1: mean (weight)                  0 (112)       0 (147)
+  K2: mean (weight)              0.1016 (10)    0.0508 (1)
+  K3: mean (weight)               0.1524 (3)    0.1016 (6)
+  K4: mean (weight)               0.2032 (4)    0.1524 (2)
+  K5: mean (weight)               0.2541 (4)    0.2032 (3)
+  K6: mean (weight)               0.3049 (4)    0.2541 (6)
+  K7: mean (weight)              0.3557 (11)    0.4065 (1)
+  K8: mean (weight)               0.4065 (3)    0.4573 (2)
+  K9: mean (weight)               0.4573 (2)    0.5589 (1)
+  K10: mean (weight)              0.5081 (1)    0.6097 (1)
+  K11: mean (weight)              0.6097 (3)    1.2195 (2)
+  K12: mean (weight)              0.6605 (1)            --
+  K13: mean (weight)               0.813 (7)            --
+  K14: mean (weight)              1.0162 (1)            --
+  K15: mean (weight)              1.2195 (1)            --
+  K16: mean (weight)              1.2703 (1)            --
+  K17: mean (weight)              1.3719 (2)            --
+  K18: mean (weight)                1.88 (2)            --
+
+word_freq_remove:
+  [# kernels]                             14             5
+  [std. dev]                          0.4117        0.0926
+  [precision]                          0.135         0.135
+  K1: mean (weight)                  0 (104)       0 (164)
+  K2: mean (weight)               0.135 (19)     0.135 (1)
+  K3: mean (weight)                 0.27 (3)      0.27 (1)
+  K4: mean (weight)                0.405 (6)      0.54 (4)
+  K5: mean (weight)                0.54 (17)     1.215 (2)
+  K6: mean (weight)                0.675 (3)            --
+  K7: mean (weight)                 0.81 (2)            --
+  K8: mean (weight)                0.945 (2)            --
+  K9: mean (weight)                 1.08 (2)            --
+  K10: mean (weight)               1.215 (3)            --
+  K11: mean (weight)                1.62 (1)            --
+  K12: mean (weight)                2.16 (6)            --
+  K13: mean (weight)                2.97 (2)            --
+  K14: mean (weight)                 5.4 (2)            --
+
+word_freq_internet:
+  [# kernels]                             13            11
+  [std. dev]                          0.1108        0.2005
+  [precision]                         0.0692        0.0692
+  K1: mean (weight)                  0 (122)       0 (153)
+  K2: mean (weight)              0.0692 (11)    0.1384 (4)
+  K3: mean (weight)              0.1384 (13)    0.2076 (1)
+  K4: mean (weight)               0.2768 (4)    0.2768 (3)
+  K5: mean (weight)               0.3461 (4)    0.3461 (1)
+  K6: mean (weight)               0.4153 (4)    0.4153 (1)
+  K7: mean (weight)               0.4845 (1)    0.4845 (2)
+  K8: mean (weight)               0.6229 (3)    0.9689 (4)
+  K9: mean (weight)               0.6921 (1)    1.1766 (1)
+  K10: mean (weight)              1.0382 (2)    1.2458 (1)
+  K11: mean (weight)              1.2458 (3)      2.63 (1)
+  K12: mean (weight)               1.315 (2)            --
+  K13: mean (weight)              1.4534 (2)            --
+
+word_freq_order:
+  [# kernels]                             18             6
+  [std. dev]                          0.1906         0.098
+  [precision]                         0.0714        0.0714
+  K1: mean (weight)                  0 (112)       0 (158)
+  K2: mean (weight)               0.0714 (7)    0.0714 (2)
+  K3: mean (weight)               0.1429 (3)    0.1429 (1)
+  K4: mean (weight)               0.2143 (4)    0.4286 (8)
+  K5: mean (weight)               0.2857 (3)    0.9286 (2)
+  K6: mean (weight)               0.3571 (1)    1.2857 (1)
+  K7: mean (weight)               0.4286 (4)            --
+  K8: mean (weight)                  0.5 (8)            --
+  K9: mean (weight)               0.5714 (6)            --
+  K10: mean (weight)              0.6429 (2)            --
+  K11: mean (weight)              0.7143 (1)            --
+  K12: mean (weight)             0.7857 (11)            --
+  K13: mean (weight)              0.9286 (1)            --
+  K14: mean (weight)              1.2857 (2)            --
+  K15: mean (weight)              1.3571 (2)            --
+  K16: mean (weight)              1.4286 (2)            --
+  K17: mean (weight)                 1.5 (2)            --
+  K18: mean (weight)                 2.5 (1)            --
+
+word_freq_mail:
+  [# kernels]                             26            19
+  [std. dev]                          0.1448        0.2021
+  [precision]                         0.0442        0.0442
+  K1: mean (weight)                   0 (88)       0 (141)
+  K2: mean (weight)               0.0442 (6)    0.0442 (5)
+  K3: mean (weight)              0.0883 (10)    0.0883 (1)
+  K4: mean (weight)               0.1767 (3)    0.1325 (2)
+  K5: mean (weight)               0.2208 (3)     0.265 (1)
+  K6: mean (weight)                0.265 (4)    0.3092 (2)
+  K7: mean (weight)               0.3533 (1)    0.3533 (3)
+  K8: mean (weight)               0.3975 (2)    0.3975 (1)
+  K9: mean (weight)               0.4417 (3)    0.4417 (1)
+  K10: mean (weight)                0.53 (9)    0.4858 (1)
+  K11: mean (weight)              0.5742 (4)      0.53 (2)
+  K12: mean (weight)              0.6183 (6)    0.5742 (1)
+  K13: mean (weight)              0.6625 (1)    0.6183 (1)
+  K14: mean (weight)              0.7508 (3)     0.795 (2)
+  K15: mean (weight)               0.795 (4)    0.9275 (1)
+  K16: mean (weight)              0.8392 (3)      1.06 (3)
+  K17: mean (weight)              0.9275 (1)    1.5458 (1)
+  K18: mean (weight)              0.9717 (2)    2.4733 (2)
+  K19: mean (weight)                1.06 (1)      2.65 (1)
+  K20: mean (weight)              1.1042 (3)            --
+  K21: mean (weight)              1.1925 (1)            --
+  K22: mean (weight)              1.4575 (5)            --
+  K23: mean (weight)              1.5458 (2)            --
+  K24: mean (weight)                1.59 (2)            --
+  K25: mean (weight)              1.8108 (2)            --
+  K26: mean (weight)              1.8992 (3)            --
+
+word_freq_receive:
+  [# kernels]                             15             4
+  [std. dev]                          0.1121        0.0657
+  [precision]                         0.0507        0.0507
+  K1: mean (weight)                  0 (118)       0 (166)
+  K2: mean (weight)               0.0507 (5)    0.1014 (2)
+  K3: mean (weight)               0.1014 (2)    0.2028 (3)
+  K4: mean (weight)               0.1521 (2)    0.8617 (1)
+  K5: mean (weight)               0.2028 (5)            --
+  K6: mean (weight)              0.2534 (10)            --
+  K7: mean (weight)              0.3041 (10)            --
+  K8: mean (weight)               0.3548 (9)            --
+  K9: mean (weight)               0.4055 (3)            --
+  K10: mean (weight)               0.659 (1)            --
+  K11: mean (weight)              0.7603 (1)            --
+  K12: mean (weight)              0.9124 (1)            --
+  K13: mean (weight)              1.1152 (1)            --
+  K14: mean (weight)              1.2166 (2)            --
+  K15: mean (weight)                1.47 (2)            --
+
+word_freq_will:
+  [# kernels]                             30            30
+  [std. dev]                          0.2102        0.3172
+  [precision]                         0.0484        0.0484
+  K1: mean (weight)                   0 (68)        0 (89)
+  K2: mean (weight)               0.1935 (3)    0.0484 (2)
+  K3: mean (weight)               0.2419 (4)    0.1451 (1)
+  K4: mean (weight)               0.2902 (8)    0.2419 (6)
+  K5: mean (weight)                0.387 (3)    0.2902 (3)
+  K6: mean (weight)               0.4353 (2)    0.3386 (3)
+  K7: mean (weight)               0.4837 (6)     0.387 (4)
+  K8: mean (weight)              0.5321 (10)    0.4837 (4)
+  K9: mean (weight)               0.5805 (6)    0.5321 (3)
+  K10: mean (weight)              0.6288 (4)    0.5805 (1)
+  K11: mean (weight)             0.6772 (12)    0.6288 (2)
+  K12: mean (weight)              0.7256 (4)    0.6772 (1)
+  K13: mean (weight)               0.774 (3)    0.7256 (4)
+  K14: mean (weight)              0.8223 (1)     0.774 (4)
+  K15: mean (weight)              0.8707 (5)    0.8223 (2)
+  K16: mean (weight)              0.9191 (1)    0.8707 (4)
+  K17: mean (weight)              1.0158 (2)    0.9674 (7)
+  K18: mean (weight)              1.0642 (5)    1.1126 (1)
+  K19: mean (weight)              1.1126 (4)    1.1609 (1)
+  K20: mean (weight)              1.1609 (2)    1.2093 (3)
+  K21: mean (weight)              1.2093 (1)    1.2577 (6)
+  K22: mean (weight)              1.2577 (3)     1.306 (2)
+  K23: mean (weight)               1.306 (5)    1.4995 (3)
+  K24: mean (weight)              1.4028 (2)    1.5479 (3)
+  K25: mean (weight)              1.4512 (2)    1.5963 (3)
+  K26: mean (weight)              1.5963 (1)    2.0316 (1)
+  K27: mean (weight)              1.8865 (1)    2.1767 (2)
+  K28: mean (weight)              2.1767 (2)    2.2735 (3)
+  K29: mean (weight)              2.2735 (1)    2.6121 (1)
+  K30: mean (weight)              2.7572 (1)      4.16 (3)
+
+word_freq_people:
+  [# kernels]                             20            15
+  [std. dev]                          0.0816        0.0816
+  [precision]                         0.0297        0.0297
+  K1: mean (weight)                  0 (120)       0 (143)
+  K2: mean (weight)               0.0892 (1)    0.0297 (5)
+  K3: mean (weight)               0.1189 (1)    0.0594 (2)
+  K4: mean (weight)               0.1486 (3)    0.0892 (3)
+  K5: mean (weight)               0.1783 (6)    0.1189 (2)
+  K6: mean (weight)               0.2081 (3)    0.1783 (2)
+  K7: mean (weight)               0.2675 (8)    0.2081 (2)
+  K8: mean (weight)              0.2972 (12)    0.2675 (3)
+  K9: mean (weight)               0.3269 (1)    0.3269 (3)
+  K10: mean (weight)              0.3864 (3)    0.4161 (1)
+  K11: mean (weight)              0.4161 (2)    0.4458 (1)
+  K12: mean (weight)              0.4458 (1)     0.535 (2)
+  K13: mean (weight)              0.5053 (1)    0.6539 (1)
+  K14: mean (weight)               0.535 (1)    1.0106 (1)
+  K15: mean (weight)              0.5647 (2)      1.07 (1)
+  K16: mean (weight)              0.6242 (1)            --
+  K17: mean (weight)              0.6539 (2)            --
+  K18: mean (weight)              0.9511 (1)            --
+  K19: mean (weight)              1.0403 (1)            --
+  K20: mean (weight)                1.07 (2)            --
+
+word_freq_report:
+  [# kernels]                             11             4
+  [std. dev]                          0.1003        0.1128
+  [precision]                         0.0822        0.0822
+  K1: mean (weight)                  0 (147)       0 (165)
+  K2: mean (weight)               0.0822 (9)    0.0822 (3)
+  K3: mean (weight)               0.1644 (4)    0.1644 (3)
+  K4: mean (weight)               0.2467 (1)      1.48 (1)
+  K5: mean (weight)               0.3289 (3)            --
+  K6: mean (weight)               0.4111 (1)            --
+  K7: mean (weight)               0.4933 (1)            --
+  K8: mean (weight)               0.5756 (1)            --
+  K9: mean (weight)               1.0689 (2)            --
+  K10: mean (weight)              1.1511 (2)            --
+  K11: mean (weight)              1.3156 (1)            --
+
+word_freq_addresses:
+  [# kernels]                              9             2
+  [std. dev]                          0.1685        0.0843
+  [precision]                         0.1381        0.1381
+  K1: mean (weight)                  0 (146)       0 (171)
+  K2: mean (weight)               0.1381 (8)     1.105 (1)
+  K3: mean (weight)               0.2762 (3)            --
+  K4: mean (weight)               0.4144 (1)            --
+  K5: mean (weight)               0.5525 (2)            --
+  K6: mean (weight)               0.6906 (2)            --
+  K7: mean (weight)                1.105 (2)            --
+  K8: mean (weight)               1.6575 (7)            --
+  K9: mean (weight)                 2.21 (1)            --
+
+word_freq_free:
+  [# kernels]                             24             8
+  [std. dev]                          0.4766        0.1466
+  [precision]                         0.0962        0.0962
+  K1: mean (weight)                   0 (67)       0 (158)
+  K2: mean (weight)              0.0962 (12)    0.0962 (7)
+  K3: mean (weight)              0.1923 (10)    0.1923 (1)
+  K4: mean (weight)              0.2885 (10)    0.3846 (1)
+  K5: mean (weight)              0.3846 (10)    0.4808 (1)
+  K6: mean (weight)               0.4808 (5)    0.5769 (1)
+  K7: mean (weight)               0.5769 (6)    0.6731 (1)
+  K8: mean (weight)               0.6731 (8)    1.9231 (2)
+  K9: mean (weight)               0.7692 (9)            --
+  K10: mean (weight)              0.8654 (6)            --
+  K11: mean (weight)              0.9615 (1)            --
+  K12: mean (weight)                1.25 (3)            --
+  K13: mean (weight)              1.3462 (2)            --
+  K14: mean (weight)              1.4423 (2)            --
+  K15: mean (weight)              1.5385 (4)            --
+  K16: mean (weight)              1.9231 (4)            --
+  K17: mean (weight)              2.1154 (1)            --
+  K18: mean (weight)              2.2115 (2)            --
+  K19: mean (weight)              2.4038 (1)            --
+  K20: mean (weight)              2.5962 (2)            --
+  K21: mean (weight)              2.9808 (1)            --
+  K22: mean (weight)              3.3654 (2)            --
+  K23: mean (weight)              5.3846 (2)            --
+  K24: mean (weight)                6.25 (2)            --
+
+word_freq_business:
+  [# kernels]                             19            10
+  [std. dev]                          0.2592        0.1507
+  [precision]                         0.0791        0.0791
+  K1: mean (weight)                  0 (115)       0 (149)
+  K2: mean (weight)               0.0791 (4)    0.0791 (8)
+  K3: mean (weight)               0.1581 (1)    0.1581 (4)
+  K4: mean (weight)               0.2372 (7)    0.3163 (1)
+  K5: mean (weight)               0.3163 (4)    0.4744 (1)
+  K6: mean (weight)               0.3953 (5)    0.5535 (2)
+  K7: mean (weight)               0.4744 (3)    0.7907 (1)
+  K8: mean (weight)               0.5535 (7)    1.0279 (2)
+  K9: mean (weight)               0.6326 (3)    1.2651 (3)
+  K10: mean (weight)              0.7116 (4)    1.9767 (1)
+  K11: mean (weight)              0.7907 (7)            --
+  K12: mean (weight)              0.8698 (3)            --
+  K13: mean (weight)              0.9488 (2)            --
+  K14: mean (weight)               1.107 (1)            --
+  K15: mean (weight)               1.186 (1)            --
+  K16: mean (weight)              1.2651 (1)            --
+  K17: mean (weight)              1.5023 (2)            --
+  K18: mean (weight)              3.3209 (1)            --
+  K19: mean (weight)                 3.4 (1)            --
+
+word_freq_email:
+  [# kernels]                             22            13
+  [std. dev]                          0.1865        0.2623
+  [precision]                         0.0764        0.0764
+  K1: mean (weight)                  0 (111)       0 (156)
+  K2: mean (weight)               0.0764 (8)    0.0764 (1)
+  K3: mean (weight)               0.1529 (6)    0.1529 (2)
+  K4: mean (weight)               0.2293 (3)    0.2293 (2)
+  K5: mean (weight)               0.3822 (2)    0.3058 (1)
+  K6: mean (weight)               0.4587 (3)    0.3822 (1)
+  K7: mean (weight)               0.5351 (4)    0.4587 (1)
+  K8: mean (weight)                0.688 (2)    0.5351 (1)
+  K9: mean (weight)               0.7644 (2)    0.6116 (2)
+  K10: mean (weight)              0.9173 (3)    0.7644 (2)
+  K11: mean (weight)              0.9938 (2)    0.9173 (1)
+  K12: mean (weight)              1.1467 (7)    1.5289 (1)
+  K13: mean (weight)              1.2231 (1)      3.44 (1)
+  K14: mean (weight)              1.2996 (1)            --
+  K15: mean (weight)               1.376 (2)            --
+  K16: mean (weight)              1.4524 (2)            --
+  K17: mean (weight)              1.5289 (2)            --
+  K18: mean (weight)              1.6818 (2)            --
+  K19: mean (weight)              1.7582 (3)            --
+  K20: mean (weight)              1.8347 (1)            --
+  K21: mean (weight)              2.1404 (2)            --
+  K22: mean (weight)              2.4462 (3)            --
+
+word_freq_you:
+  [# kernels]                             44            37
+  [std. dev]                          0.5618        0.9295
+  [precision]                          0.091         0.091
+  K1: mean (weight)                   0 (21)        0 (67)
+  K2: mean (weight)               0.2729 (3)    0.1819 (5)
+  K3: mean (weight)               0.3639 (1)    0.2729 (1)
+  K4: mean (weight)               0.4549 (6)    0.3639 (7)
+  K5: mean (weight)               0.5458 (3)    0.4549 (4)
+  K6: mean (weight)               0.6368 (1)    0.6368 (3)
+  K7: mean (weight)               0.8187 (4)    0.7278 (4)
+  K8: mean (weight)               1.0916 (4)    0.8187 (4)
+  K9: mean (weight)               1.1826 (3)    1.0007 (2)
+  K10: mean (weight)             1.2736 (17)    1.0916 (1)
+  K11: mean (weight)              1.3646 (3)    1.1826 (8)
+  K12: mean (weight)              1.6375 (7)    1.2736 (5)
+  K13: mean (weight)              1.7284 (4)    1.4555 (4)
+  K14: mean (weight)             1.8194 (12)    1.5465 (4)
+  K15: mean (weight)              1.9104 (1)    1.6375 (3)
+  K16: mean (weight)              2.0013 (1)    1.7284 (1)
+  K17: mean (weight)              2.1833 (2)    1.8194 (1)
+  K18: mean (weight)              2.2743 (5)    1.9104 (1)
+  K19: mean (weight)              2.3652 (3)    2.0013 (6)
+  K20: mean (weight)              2.4562 (8)    2.0923 (1)
+  K21: mean (weight)              2.5472 (4)    2.1833 (2)
+  K22: mean (weight)              2.6381 (1)    2.3652 (2)
+  K23: mean (weight)               2.911 (6)    2.5472 (2)
+  K24: mean (weight)               3.002 (3)    2.6381 (3)
+  K25: mean (weight)               3.093 (1)     2.911 (3)
+  K26: mean (weight)               3.184 (5)     3.002 (1)
+  K27: mean (weight)              3.3659 (2)     3.184 (7)
+  K28: mean (weight)              3.4569 (3)    3.8207 (5)
+  K29: mean (weight)              3.5478 (1)    4.1846 (3)
+  K30: mean (weight)              3.7298 (4)    4.5485 (1)
+  K31: mean (weight)              3.8207 (4)    4.7304 (1)
+  K32: mean (weight)              4.0027 (1)    5.1853 (2)
+  K33: mean (weight)              4.0937 (2)    7.2776 (1)
+  K34: mean (weight)              4.1846 (8)    7.4596 (3)
+  K35: mean (weight)              4.3666 (2)    7.7325 (1)
+  K36: mean (weight)              4.5485 (4)    8.0963 (2)
+  K37: mean (weight)              4.6395 (2)     12.19 (1)
+  K38: mean (weight)              5.0034 (1)            --
+  K39: mean (weight)              5.3672 (2)            --
+  K40: mean (weight)              5.8221 (1)            --
+  K41: mean (weight)               6.004 (1)            --
+  K42: mean (weight)              6.4589 (1)            --
+  K43: mean (weight)              6.5499 (2)            --
+  K44: mean (weight)              7.3686 (2)            --
+
+word_freq_credit:
+  [# kernels]                              4             3
+  [std. dev]                           0.308        1.3862
+  [precision]                           1.01          1.01
+  K1: mean (weight)                  0 (166)       0 (169)
+  K2: mean (weight)                 1.01 (3)      1.01 (1)
+  K3: mean (weight)                 3.03 (2)     18.18 (2)
+  K4: mean (weight)                 4.04 (1)            --
+
+word_freq_your:
+  [# kernels]                             48            28
+  [std. dev]                          0.4011        0.3702
+  [precision]                         0.0506        0.0506
+  K1: mean (weight)                   0 (30)       0 (119)
+  K2: mean (weight)               0.1517 (2)    0.1012 (4)
+  K3: mean (weight)               0.2023 (1)    0.1517 (2)
+  K4: mean (weight)               0.2529 (3)    0.2023 (5)
+  K5: mean (weight)               0.3035 (2)    0.2529 (3)
+  K6: mean (weight)               0.4046 (4)    0.3035 (3)
+  K7: mean (weight)               0.4552 (5)     0.354 (2)
+  K8: mean (weight)               0.5058 (2)    0.4046 (2)
+  K9: mean (weight)               0.6575 (2)    0.4552 (3)
+  K10: mean (weight)             0.7081 (12)    0.5058 (1)
+  K11: mean (weight)              0.7587 (3)    0.5563 (4)
+  K12: mean (weight)              0.8598 (1)    0.6069 (2)
+  K13: mean (weight)              0.9104 (7)    0.7587 (2)
+  K14: mean (weight)               0.961 (1)    0.8092 (1)
+  K15: mean (weight)              1.0115 (3)    0.9104 (2)
+  K16: mean (weight)              1.0621 (1)    1.0621 (3)
+  K17: mean (weight)              1.1127 (6)    1.1633 (1)
+  K18: mean (weight)              1.1633 (7)    1.5173 (1)
+  K19: mean (weight)              1.2138 (8)    1.9725 (1)
+  K20: mean (weight)              1.2644 (3)    2.0231 (1)
+  K21: mean (weight)               1.315 (3)    2.1748 (1)
+  K22: mean (weight)              1.4162 (6)    2.2254 (1)
+  K23: mean (weight)              1.4667 (3)    2.3771 (1)
+  K24: mean (weight)              1.5173 (3)    3.1358 (1)
+  K25: mean (weight)              1.5679 (1)    3.1863 (1)
+  K26: mean (weight)              1.6185 (1)    3.4392 (1)
+  K27: mean (weight)              1.7196 (4)    3.7427 (3)
+  K28: mean (weight)              1.7702 (1)    4.8554 (1)
+  K29: mean (weight)              1.8208 (2)            --
+  K30: mean (weight)              1.8713 (3)            --
+  K31: mean (weight)              1.9219 (1)            --
+  K32: mean (weight)              2.0231 (5)            --
+  K33: mean (weight)              2.1748 (6)            --
+  K34: mean (weight)              2.2254 (3)            --
+  K35: mean (weight)              2.3265 (2)            --
+  K36: mean (weight)              2.3771 (4)            --
+  K37: mean (weight)              2.4277 (4)            --
+  K38: mean (weight)              2.4783 (2)            --
+  K39: mean (weight)              2.5288 (2)            --
+  K40: mean (weight)                2.63 (2)            --
+  K41: mean (weight)              3.0346 (1)            --
+  K42: mean (weight)              3.1358 (1)            --
+  K43: mean (weight)              3.1863 (1)            --
+  K44: mean (weight)              3.7427 (1)            --
+  K45: mean (weight)              3.8438 (1)            --
+  K46: mean (weight)              4.4002 (2)            --
+  K47: mean (weight)              4.9565 (1)            --
+  K48: mean (weight)                5.26 (3)            --
+
+word_freq_font:
+  [# kernels]                              5             1
+  [std. dev]                          0.7228        0.1975
+  [precision]                          1.185         1.185
+  K1: mean (weight)                  0 (161)       0 (172)
+  K2: mean (weight)                1.185 (3)            --
+  K3: mean (weight)                 2.37 (1)            --
+  K4: mean (weight)                 7.11 (3)            --
+  K5: mean (weight)                 9.48 (4)            --
+
+word_freq_000:
+  [# kernels]                             12             6
+  [std. dev]                          0.1975        0.0711
+  [precision]                         0.1036        0.1036
+  K1: mean (weight)                  0 (120)       0 (165)
+  K2: mean (weight)               0.1036 (8)    0.1036 (1)
+  K3: mean (weight)               0.2072 (2)    0.3108 (2)
+  K4: mean (weight)               0.3108 (8)    0.6216 (1)
+  K5: mean (weight)               0.4144 (7)    0.7252 (1)
+  K6: mean (weight)                0.518 (1)    0.9324 (2)
+  K7: mean (weight)               0.6216 (8)            --
+  K8: mean (weight)               0.7252 (5)            --
+  K9: mean (weight)               0.8288 (9)            --
+  K10: mean (weight)              0.9324 (2)            --
+  K11: mean (weight)              1.4504 (1)            --
+  K12: mean (weight)                2.59 (1)            --
+
+word_freq_money:
+  [# kernels]                              6             5
+  [std. dev]                          0.1033        0.7434
+  [precision]                         0.2708        0.2708
+  K1: mean (weight)                  0 (122)       0 (166)
+  K2: mean (weight)              0.2708 (23)    0.2708 (2)
+  K3: mean (weight)              0.5417 (17)    0.8125 (1)
+  K4: mean (weight)               0.8125 (2)    1.3542 (2)
+  K5: mean (weight)               1.0833 (1)      9.75 (1)
+  K6: mean (weight)               1.3542 (7)            --
+
+word_freq_hp:
+  [# kernels]                              6            18
+  [std. dev]                          0.2775        0.9821
+  [precision]                           0.28          0.28
+  K1: mean (weight)                  0 (163)       0 (108)
+  K2: mean (weight)                 0.56 (3)      0.28 (7)
+  K3: mean (weight)                 1.96 (1)      0.56 (5)
+  K4: mean (weight)                 2.24 (1)      0.84 (7)
+  K5: mean (weight)                 3.36 (3)      1.12 (8)
+  K6: mean (weight)                 3.64 (1)       1.4 (1)
+  K7: mean (weight)                       --      1.68 (3)
+  K8: mean (weight)                       --      2.52 (6)
+  K9: mean (weight)                       --       2.8 (4)
+  K10: mean (weight)                      --      3.08 (1)
+  K11: mean (weight)                      --      3.36 (8)
+  K12: mean (weight)                      --      3.64 (2)
+  K13: mean (weight)                      --      4.48 (1)
+  K14: mean (weight)                      --      4.76 (1)
+  K15: mean (weight)                      --       5.6 (2)
+  K16: mean (weight)                      --      6.16 (3)
+  K17: mean (weight)                      --       8.4 (4)
+  K18: mean (weight)                      --     12.88 (1)
+
+word_freq_hpl:
+  [# kernels]                              6            17
+  [std. dev]                          0.1355        0.4201
+  [precision]                         0.1777        0.1777
+  K1: mean (weight)                  0 (165)       0 (127)
+  K2: mean (weight)               0.1777 (1)    0.1777 (5)
+  K3: mean (weight)               0.3555 (1)    0.3555 (6)
+  K4: mean (weight)               0.5332 (2)    0.5332 (1)
+  K5: mean (weight)               0.8887 (1)    0.711 (10)
+  K6: mean (weight)               1.7774 (2)    0.8887 (3)
+  K7: mean (weight)                       --    1.0665 (1)
+  K8: mean (weight)                       --    1.2442 (3)
+  K9: mean (weight)                       --    1.5997 (1)
+  K10: mean (weight)                      --    1.7774 (2)
+  K11: mean (weight)                      --    2.3106 (2)
+  K12: mean (weight)                      --    2.4884 (2)
+  K13: mean (weight)                      --    2.6661 (1)
+  K14: mean (weight)                      --    3.0216 (1)
+  K15: mean (weight)                      --    4.0881 (4)
+  K16: mean (weight)                      --    4.6213 (1)
+  K17: mean (weight)                      --      5.51 (2)
+
+word_freq_george:
+  [# kernels]                              3            10
+  [std. dev]                          1.5532        1.9062
+  [precision]                         0.9259        0.9259
+  K1: mean (weight)                  0 (169)       0 (137)
+  K2: mean (weight)               0.9259 (2)   0.9259 (15)
+  K3: mean (weight)              20.3704 (1)    1.8519 (3)
+  K4: mean (weight)                       --    2.7778 (3)
+  K5: mean (weight)                       --    3.7037 (4)
+  K6: mean (weight)                       --    4.6296 (1)
+  K7: mean (weight)                       --    7.4074 (1)
+  K8: mean (weight)                       --   13.8889 (1)
+  K9: mean (weight)                       --   20.3704 (6)
+  K10: mean (weight)                      --        25 (1)
+
+word_freq_650:
+  [# kernels]                              2            11
+  [std. dev]                          0.0385        0.3172
+  [precision]                         0.2311        0.2311
+  K1: mean (weight)                  0 (171)       0 (147)
+  K2: mean (weight)               0.4622 (1)    0.2311 (1)
+  K3: mean (weight)                       --    0.4622 (3)
+  K4: mean (weight)                       --    0.6933 (3)
+  K5: mean (weight)                       --    0.9244 (3)
+  K6: mean (weight)                       --    1.1556 (2)
+  K7: mean (weight)                       --    1.6178 (4)
+  K8: mean (weight)                       --    1.8489 (1)
+  K9: mean (weight)                       --      2.08 (3)
+  K10: mean (weight)                      --    3.0044 (1)
+  K11: mean (weight)                      --      4.16 (4)
+
+word_freq_lab:
+  [# kernels]                              2             6
+  [std. dev]                           0.119        0.7625
+  [precision]                         0.7143        0.7143
+  K1: mean (weight)                  0 (171)       0 (156)
+  K2: mean (weight)               0.7143 (1)    0.7143 (8)
+  K3: mean (weight)                       --    1.4286 (1)
+  K4: mean (weight)                       --    2.8571 (1)
+  K5: mean (weight)                       --    4.2857 (4)
+  K6: mean (weight)                       --        10 (2)
+
+word_freq_labs:
+  [# kernels]                              4            10
+  [std. dev]                          0.1745        0.3172
+  [precision]                          0.208         0.208
+  K1: mean (weight)                  0 (166)       0 (144)
+  K2: mean (weight)                0.208 (4)     0.208 (6)
+  K3: mean (weight)                0.416 (1)     0.416 (2)
+  K4: mean (weight)                2.288 (1)     0.832 (6)
+  K5: mean (weight)                       --      1.04 (4)
+  K6: mean (weight)                       --     1.248 (2)
+  K7: mean (weight)                       --     1.664 (1)
+  K8: mean (weight)                       --     1.872 (2)
+  K9: mean (weight)                       --      3.12 (1)
+  K10: mean (weight)                      --      4.16 (4)
+
+word_freq_telnet:
+  [# kernels]                              1             6
+  [std. dev]                           0.077        0.3172
+  [precision]                         0.4622        0.4622
+  K1: mean (weight)                  0 (172)       0 (158)
+  K2: mean (weight)                       --    0.4622 (4)
+  K3: mean (weight)                       --    0.9244 (3)
+  K4: mean (weight)                       --    2.7733 (2)
+  K5: mean (weight)                       --    3.2356 (1)
+  K6: mean (weight)                       --      4.16 (4)
+
+word_freq_857:
+  [# kernels]                              1             5
+  [std. dev]                           0.099        0.3172
+  [precision]                         0.5943        0.5943
+  K1: mean (weight)                  0 (172)       0 (161)
+  K2: mean (weight)                       --    0.5943 (5)
+  K3: mean (weight)                       --    1.1886 (1)
+  K4: mean (weight)                       --    2.9714 (1)
+  K5: mean (weight)                       --      4.16 (4)
+
+word_freq_data:
+  [# kernels]                              6            10
+  [std. dev]                          0.1539        0.5642
+  [precision]                         0.3364        0.3364
+  K1: mean (weight)                  0 (162)       0 (151)
+  K2: mean (weight)               0.3364 (2)    0.3364 (5)
+  K3: mean (weight)               0.6727 (1)    0.6727 (5)
+  K4: mean (weight)               1.0091 (2)    1.0091 (1)
+  K5: mean (weight)               1.3455 (4)    1.3455 (1)
+  K6: mean (weight)               2.0182 (1)    2.0182 (2)
+  K7: mean (weight)                       --    2.6909 (1)
+  K8: mean (weight)                       --    4.0364 (3)
+  K9: mean (weight)                       --    4.7091 (2)
+  K10: mean (weight)                      --       7.4 (1)
+
+word_freq_415:
+  [# kernels]                              1             5
+  [std. dev]                          0.0867        0.3172
+  [precision]                           0.52          0.52
+  K1: mean (weight)                  0 (172)       0 (161)
+  K2: mean (weight)                       --      0.52 (4)
+  K3: mean (weight)                       --      1.04 (2)
+  K4: mean (weight)                       --      3.12 (1)
+  K5: mean (weight)                       --      4.16 (4)
+
+word_freq_85:
+  [# kernels]                              2             7
+  [std. dev]                          0.0578        0.3172
+  [precision]                         0.3467        0.3467
+  K1: mean (weight)                  0 (170)       0 (154)
+  K2: mean (weight)               0.3467 (2)    0.3467 (5)
+  K3: mean (weight)                       --    0.6933 (3)
+  K4: mean (weight)                       --      1.04 (3)
+  K5: mean (weight)                       --    1.3867 (2)
+  K6: mean (weight)                       --      3.12 (1)
+  K7: mean (weight)                       --      4.16 (4)
+
+word_freq_technology:
+  [# kernels]                              6            10
+  [std. dev]                          0.0732        0.3172
+  [precision]                           0.16          0.16
+  K1: mean (weight)                  0 (156)       0 (144)
+  K2: mean (weight)                 0.16 (5)      0.16 (3)
+  K3: mean (weight)                 0.48 (5)      0.32 (9)
+  K4: mean (weight)                 0.64 (2)      0.48 (3)
+  K5: mean (weight)                  0.8 (2)      0.64 (2)
+  K6: mean (weight)                 0.96 (2)       0.8 (3)
+  K7: mean (weight)                       --      0.96 (2)
+  K8: mean (weight)                       --      1.12 (1)
+  K9: mean (weight)                       --      3.04 (1)
+  K10: mean (weight)                      --      4.16 (4)
+
+word_freq_1999:
+  [# kernels]                              9            18
+  [std. dev]                          0.1124         0.231
+  [precision]                         0.0819        0.0819
+  K1: mean (weight)                  0 (162)       0 (119)
+  K2: mean (weight)               0.0819 (1)    0.0819 (8)
+  K3: mean (weight)               0.3276 (1)    0.1638 (3)
+  K4: mean (weight)               0.4095 (1)    0.2457 (3)
+  K5: mean (weight)               0.4914 (1)    0.3276 (3)
+  K6: mean (weight)               1.0646 (1)    0.4095 (5)
+  K7: mean (weight)               1.3103 (1)    0.4914 (5)
+  K8: mean (weight)               1.3922 (2)    0.5732 (3)
+  K9: mean (weight)               1.4741 (2)     0.737 (2)
+  K10: mean (weight)                      --    0.8189 (1)
+  K11: mean (weight)                      --    0.9008 (4)
+  K12: mean (weight)                      --    0.9827 (4)
+  K13: mean (weight)                      --    1.0646 (1)
+  K14: mean (weight)                      --    1.2284 (4)
+  K15: mean (weight)                      --    1.3103 (2)
+  K16: mean (weight)                      --    1.4741 (2)
+  K17: mean (weight)                      --    1.9654 (2)
+  K18: mean (weight)                      --      3.03 (1)
+
+word_freq_parts:
+  [# kernels]                              2             4
+  [std. dev]                           0.048        0.1098
+  [precision]                          0.288         0.288
+  K1: mean (weight)                  0 (171)       0 (168)
+  K2: mean (weight)                0.288 (1)     0.288 (1)
+  K3: mean (weight)                       --     0.864 (1)
+  K4: mean (weight)                       --      1.44 (2)
+
+word_freq_pm:
+  [# kernels]                              5             9
+  [std. dev]                          0.0924         0.231
+  [precision]                         0.1515        0.1515
+  K1: mean (weight)                  0 (163)       0 (151)
+  K2: mean (weight)               0.1515 (5)    0.1515 (5)
+  K3: mean (weight)                0.303 (2)     0.303 (5)
+  K4: mean (weight)               0.4545 (1)    0.4545 (4)
+  K5: mean (weight)                1.212 (1)     0.909 (2)
+  K6: mean (weight)                       --    1.0605 (1)
+  K7: mean (weight)                       --     1.212 (2)
+  K8: mean (weight)                       --    2.8785 (1)
+  K9: mean (weight)                       --      3.03 (1)
+
+word_freq_direct:
+  [# kernels]                              4             6
+  [std. dev]                          0.1057        0.3172
+  [precision]                         0.2773        0.2773
+  K1: mean (weight)                  0 (165)       0 (161)
+  K2: mean (weight)               0.2773 (3)    0.2773 (1)
+  K3: mean (weight)               0.5547 (2)    0.5547 (3)
+  K4: mean (weight)               1.3867 (2)     0.832 (2)
+  K5: mean (weight)                       --    3.0507 (1)
+  K6: mean (weight)                       --      4.16 (4)
+
+word_freq_cs:
+  [# kernels]                              1             4
+  [std. dev]                          0.0717        0.1639
+  [precision]                           0.43          0.43
+  K1: mean (weight)                  0 (172)       0 (167)
+  K2: mean (weight)                       --      0.43 (2)
+  K3: mean (weight)                       --      0.86 (2)
+  K4: mean (weight)                       --      2.15 (1)
+
+word_freq_meeting:
+  [# kernels]                              2            10
+  [std. dev]                          0.0561        0.4621
+  [precision]                         0.3367        0.3367
+  K1: mean (weight)                  0 (171)       0 (149)
+  K2: mean (weight)               0.3367 (1)    0.3367 (3)
+  K3: mean (weight)                       --    0.6733 (4)
+  K4: mean (weight)                       --      1.01 (1)
+  K5: mean (weight)                       --      3.03 (1)
+  K6: mean (weight)                       --    3.7033 (2)
+  K7: mean (weight)                       --      4.04 (8)
+  K8: mean (weight)                       --    4.7133 (1)
+  K9: mean (weight)                       --      5.05 (2)
+  K10: mean (weight)                      --      6.06 (1)
+
+word_freq_original:
+  [# kernels]                              4             8
+  [std. dev]                          0.0365         0.231
+  [precision]                         0.1595        0.1595
+  K1: mean (weight)                  0 (160)       0 (154)
+  K2: mean (weight)               0.1595 (8)    0.1595 (4)
+  K3: mean (weight)               0.3189 (1)    0.3189 (3)
+  K4: mean (weight)               0.4784 (3)    0.4784 (6)
+  K5: mean (weight)                       --    0.7974 (1)
+  K6: mean (weight)                       --    0.9568 (2)
+  K7: mean (weight)                       --    1.1163 (1)
+  K8: mean (weight)                       --      3.03 (1)
+
+word_freq_project:
+  [# kernels]                              2             7
+  [std. dev]                            0.09        0.6176
+  [precision]                           0.54          0.54
+  K1: mean (weight)                  0 (171)       0 (161)
+  K2: mean (weight)                 0.54 (1)      0.54 (4)
+  K3: mean (weight)                       --      1.08 (2)
+  K4: mean (weight)                       --      1.62 (1)
+  K5: mean (weight)                       --      2.16 (1)
+  K6: mean (weight)                       --      6.48 (2)
+  K7: mean (weight)                       --       8.1 (1)
+
+word_freq_re:
+  [# kernels]                              9            18
+  [std. dev]                          0.0996        0.5864
+  [precision]                         0.1451        0.1451
+  K1: mean (weight)                  0 (124)       0 (116)
+  K2: mean (weight)              0.1451 (24)    0.2902 (8)
+  K3: mean (weight)               0.2902 (9)    0.4353 (7)
+  K4: mean (weight)               0.4353 (3)    0.5804 (5)
+  K5: mean (weight)               0.5804 (5)    0.7255 (2)
+  K6: mean (weight)               0.7255 (1)    0.8706 (4)
+  K7: mean (weight)               1.0157 (1)    1.0157 (5)
+  K8: mean (weight)               1.1608 (2)    1.1608 (4)
+  K9: mean (weight)               1.3058 (3)    1.3058 (5)
+  K10: mean (weight)                      --     1.596 (3)
+  K11: mean (weight)                      --    2.0313 (2)
+  K12: mean (weight)                      --    2.1764 (1)
+  K13: mean (weight)                      --    2.6117 (3)
+  K14: mean (weight)                      --    2.7568 (2)
+  K15: mean (weight)                      --    3.7725 (1)
+  K16: mean (weight)                      --    3.9175 (2)
+  K17: mean (weight)                      --    4.7881 (1)
+  K18: mean (weight)                      --      7.69 (1)
+
+word_freq_edu:
+  [# kernels]                              2            10
+  [std. dev]                          0.1144        0.6008
+  [precision]                         0.3752        0.3752
+  K1: mean (weight)                  0 (171)       0 (151)
+  K2: mean (weight)                1.501 (1)    0.3752 (6)
+  K3: mean (weight)                       --    0.7505 (4)
+  K4: mean (weight)                       --    1.1257 (3)
+  K5: mean (weight)                       --     1.501 (1)
+  K6: mean (weight)                       --    3.0019 (2)
+  K7: mean (weight)                       --    3.7524 (1)
+  K8: mean (weight)                       --    4.5029 (1)
+  K9: mean (weight)                       --    7.5048 (1)
+  K10: mean (weight)                      --      7.88 (2)
+
+word_freq_table:
+  [# kernels]                              1             2
+  [std. dev]                            0.12          0.12
+  [precision]                           0.72          0.72
+  K1: mean (weight)                  0 (172)       0 (170)
+  K2: mean (weight)                       --      0.72 (2)
+
+word_freq_conference:
+  [# kernels]                              1             3
+  [std. dev]                          0.1322        0.3629
+  [precision]                         0.7933        0.7933
+  K1: mean (weight)                  0 (172)       0 (167)
+  K2: mean (weight)                       --    0.7933 (4)
+  K3: mean (weight)                       --      4.76 (1)
+
+char_freq_;:
+  [# kernels]                             13            16
+  [std. dev]                          0.0359        0.0359
+  [precision]                         0.0127        0.0127
+  K1: mean (weight)                  0 (138)       0 (137)
+  K2: mean (weight)              0.0127 (10)    0.0127 (3)
+  K3: mean (weight)               0.0255 (2)    0.0255 (2)
+  K4: mean (weight)               0.0636 (4)    0.0382 (1)
+  K5: mean (weight)               0.0764 (2)    0.0509 (1)
+  K6: mean (weight)               0.1018 (5)    0.0636 (5)
+  K7: mean (weight)               0.1655 (1)    0.0764 (1)
+  K8: mean (weight)               0.1782 (1)    0.1018 (2)
+  K9: mean (weight)               0.2037 (3)    0.1146 (2)
+  K10: mean (weight)              0.2419 (1)    0.1273 (2)
+  K11: mean (weight)              0.3564 (1)      0.14 (4)
+  K12: mean (weight)              0.4074 (3)    0.1655 (4)
+  K13: mean (weight)               0.471 (1)    0.1782 (2)
+  K14: mean (weight)                      --    0.2801 (2)
+  K15: mean (weight)                      --     0.331 (2)
+  K16: mean (weight)                      --     0.471 (2)
+
+char_freq_(:
+  [# kernels]                             27            42
+  [std. dev]                          0.0619        0.1044
+  [precision]                         0.0116        0.0116
+  K1: mean (weight)                   0 (70)        0 (59)
+  K2: mean (weight)               0.0232 (6)    0.0232 (1)
+  K3: mean (weight)               0.0464 (7)     0.058 (2)
+  K4: mean (weight)                0.058 (7)    0.0696 (9)
+  K5: mean (weight)              0.0696 (10)    0.0812 (3)
+  K6: mean (weight)               0.0812 (9)    0.0928 (5)
+  K7: mean (weight)               0.0928 (2)    0.1044 (3)
+  K8: mean (weight)              0.1044 (11)     0.116 (3)
+  K9: mean (weight)                0.116 (2)    0.1276 (2)
+  K10: mean (weight)              0.1276 (7)    0.1392 (2)
+  K11: mean (weight)              0.1392 (4)    0.1508 (6)
+  K12: mean (weight)              0.1508 (1)    0.1624 (3)
+  K13: mean (weight)              0.1624 (2)     0.174 (4)
+  K14: mean (weight)               0.174 (2)    0.1856 (5)
+  K15: mean (weight)              0.1972 (9)    0.1972 (6)
+  K16: mean (weight)              0.2204 (6)    0.2088 (7)
+  K17: mean (weight)              0.2436 (2)    0.2204 (2)
+  K18: mean (weight)              0.2668 (3)    0.2436 (2)
+  K19: mean (weight)              0.3016 (1)    0.2552 (1)
+  K20: mean (weight)              0.3364 (2)    0.2668 (1)
+  K21: mean (weight)              0.3597 (1)    0.2784 (2)
+  K22: mean (weight)              0.4061 (1)      0.29 (2)
+  K23: mean (weight)              0.4409 (2)    0.3016 (2)
+  K24: mean (weight)              0.5105 (1)    0.3248 (1)
+  K25: mean (weight)              0.5337 (2)    0.3713 (4)
+  K26: mean (weight)              0.5453 (1)    0.4061 (1)
+  K27: mean (weight)              0.8121 (1)    0.4177 (1)
+  K28: mean (weight)                      --    0.4409 (4)
+  K29: mean (weight)                      --    0.4525 (1)
+  K30: mean (weight)                      --    0.4873 (1)
+  K31: mean (weight)                      --    0.5105 (1)
+  K32: mean (weight)                      --    0.5453 (2)
+  K33: mean (weight)                      --    0.5917 (2)
+  K34: mean (weight)                      --    0.6845 (3)
+  K35: mean (weight)                      --    0.7193 (6)
+  K36: mean (weight)                      --    0.7657 (4)
+  K37: mean (weight)                      --    0.7773 (1)
+  K38: mean (weight)                      --    0.8121 (1)
+  K39: mean (weight)                      --    0.8585 (1)
+  K40: mean (weight)                      --    0.9049 (1)
+  K41: mean (weight)                      --    1.1718 (4)
+  K42: mean (weight)                      --     1.369 (1)
+
+char_freq_[:
+  [# kernels]                             10            11
+  [std. dev]                          0.0252        0.0223
+  [precision]                         0.0127        0.0127
+  K1: mean (weight)                  0 (154)       0 (148)
+  K2: mean (weight)               0.0127 (2)    0.0255 (1)
+  K3: mean (weight)               0.0255 (1)    0.0382 (2)
+  K4: mean (weight)               0.0509 (2)    0.0509 (3)
+  K5: mean (weight)               0.0637 (5)    0.0637 (7)
+  K6: mean (weight)               0.0891 (2)    0.0764 (3)
+  K7: mean (weight)                0.191 (1)      0.14 (2)
+  K8: mean (weight)               0.2546 (1)    0.1528 (2)
+  K9: mean (weight)               0.2673 (2)    0.1655 (2)
+  K10: mean (weight)               0.331 (2)    0.2037 (1)
+  K11: mean (weight)                      --    0.2928 (1)
+
+char_freq_!:
+  [# kernels]                             32            16
+  [std. dev]                          0.3315        0.0956
+  [precision]                         0.0392        0.0392
+  K1: mean (weight)                   0 (45)       0 (122)
+  K2: mean (weight)              0.0392 (12)   0.0392 (11)
+  K3: mean (weight)              0.0783 (11)   0.0783 (11)
+  K4: mean (weight)               0.1175 (2)    0.1175 (3)
+  K5: mean (weight)               0.1566 (5)    0.1566 (4)
+  K6: mean (weight)               0.1958 (7)    0.1958 (1)
+  K7: mean (weight)               0.2741 (5)     0.235 (1)
+  K8: mean (weight)               0.3133 (5)    0.2741 (4)
+  K9: mean (weight)              0.3525 (10)    0.3133 (2)
+  K10: mean (weight)              0.3916 (2)    0.3916 (4)
+  K11: mean (weight)              0.4308 (7)    0.4308 (2)
+  K12: mean (weight)              0.4699 (3)    0.5091 (1)
+  K13: mean (weight)             0.5091 (16)    0.6658 (1)
+  K14: mean (weight)              0.5483 (1)    0.7049 (3)
+  K15: mean (weight)              0.5874 (4)    0.9007 (1)
+  K16: mean (weight)              0.6658 (2)    1.2532 (1)
+  K17: mean (weight)              0.7049 (3)            --
+  K18: mean (weight)              0.7441 (1)            --
+  K19: mean (weight)              0.7832 (1)            --
+  K20: mean (weight)              0.8224 (4)            --
+  K21: mean (weight)              0.9007 (3)            --
+  K22: mean (weight)              0.9399 (1)            --
+  K23: mean (weight)              0.9791 (2)            --
+  K24: mean (weight)              1.0574 (2)            --
+  K25: mean (weight)              1.0965 (3)            --
+  K26: mean (weight)              1.1357 (1)            --
+  K27: mean (weight)               1.214 (3)            --
+  K28: mean (weight)              1.5665 (4)            --
+  K29: mean (weight)              1.6056 (2)            --
+  K30: mean (weight)              1.6448 (2)            --
+  K31: mean (weight)              1.7623 (2)            --
+  K32: mean (weight)               4.347 (1)            --
+
+char_freq_$:
+  [# kernels]                             16             7
+  [std. dev]                           0.252         0.252
+  [precision]                         0.0479        0.0479
+  K1: mean (weight)                   0 (79)       0 (154)
+  K2: mean (weight)              0.0479 (14)    0.0479 (6)
+  K3: mean (weight)              0.0958 (11)    0.0958 (5)
+  K4: mean (weight)              0.1437 (19)    0.1437 (3)
+  K5: mean (weight)              0.1916 (10)    0.2395 (2)
+  K6: mean (weight)               0.2395 (7)    0.2874 (1)
+  K7: mean (weight)               0.2874 (7)     3.305 (1)
+  K8: mean (weight)               0.3353 (4)            --
+  K9: mean (weight)               0.3832 (9)            --
+  K10: mean (weight)              0.4311 (2)            --
+  K11: mean (weight)               0.479 (1)            --
+  K12: mean (weight)              0.5269 (1)            --
+  K13: mean (weight)              0.5748 (2)            --
+  K14: mean (weight)              0.9101 (2)            --
+  K15: mean (weight)              1.1975 (2)            --
+  K16: mean (weight)               3.305 (2)            --
+
+char_freq_#:
+  [# kernels]                             10             6
+  [std. dev]                          0.1197        0.0363
+  [precision]                         0.0476        0.0476
+  K1: mean (weight)                  0 (135)       0 (165)
+  K2: mean (weight)               0.0476 (8)    0.0476 (3)
+  K3: mean (weight)               0.0952 (9)    0.0952 (1)
+  K4: mean (weight)               0.1427 (7)    0.1427 (1)
+  K5: mean (weight)               0.2855 (4)    0.1903 (1)
+  K6: mean (weight)               0.4282 (1)    0.4758 (1)
+  K7: mean (weight)               0.4758 (1)            --
+  K8: mean (weight)               0.7612 (2)            --
+  K9: mean (weight)               0.9039 (3)            --
+  K10: mean (weight)                1.57 (2)            --
+
+capital_run_length_average:
+  [# kernels]                             27            12
+  [std. dev]                          6.9641        0.8565
+  [precision]                         0.4884        0.4884
+  K1: mean (weight)               0.9768 (7)   0.9768 (33)
+  K2: mean (weight)               1.4652 (9)   1.4652 (34)
+  K3: mean (weight)              1.9536 (21)   1.9536 (40)
+  K4: mean (weight)              2.4421 (23)   2.4421 (24)
+  K5: mean (weight)              2.9305 (11)   2.9305 (14)
+  K6: mean (weight)               3.4189 (9)    3.4189 (6)
+  K7: mean (weight)              3.9073 (12)    3.9073 (9)
+  K8: mean (weight)               4.3957 (9)    4.3957 (6)
+  K9: mean (weight)              4.8841 (15)    5.3725 (2)
+  K10: mean (weight)              5.3725 (6)    9.2798 (2)
+  K11: mean (weight)              5.8609 (7)   11.2335 (1)
+  K12: mean (weight)              6.3494 (2)   12.2103 (1)
+  K13: mean (weight)              6.8378 (6)            --
+  K14: mean (weight)              7.3262 (3)            --
+  K15: mean (weight)              7.8146 (2)            --
+  K16: mean (weight)              8.7914 (7)            --
+  K17: mean (weight)              9.2798 (2)            --
+  K18: mean (weight)              9.7682 (4)            --
+  K19: mean (weight)             10.2566 (2)            --
+  K20: mean (weight)             11.2335 (2)            --
+  K21: mean (weight)             12.2103 (3)            --
+  K22: mean (weight)             18.5596 (1)            --
+  K23: mean (weight)             21.4901 (2)            --
+  K24: mean (weight)              24.909 (2)            --
+  K25: mean (weight)             25.3974 (2)            --
+  K26: mean (weight)             64.4704 (1)            --
+  K27: mean (weight)             92.3098 (2)            --
+
+capital_run_length_longest:
+  [# kernels]                             31            13
+  [std. dev]                         53.9082       17.7652
+  [precision]                         8.0341        8.0341
+  K1: mean (weight)                    0 (8)        0 (56)
+  K2: mean (weight)              8.0341 (30)   8.0341 (43)
+  K3: mean (weight)             16.0682 (20)  16.0682 (34)
+  K4: mean (weight)             24.1023 (15)  24.1023 (14)
+  K5: mean (weight)              32.1364 (8)   32.1364 (2)
+  K6: mean (weight)              40.1705 (3)   40.1705 (4)
+  K7: mean (weight)              48.2045 (3)   48.2045 (7)
+  K8: mean (weight)             56.2386 (12)   64.2727 (5)
+  K9: mean (weight)             64.2727 (11)   80.3409 (2)
+  K10: mean (weight)             72.3068 (5)    88.375 (2)
+  K11: mean (weight)             80.3409 (5)  104.4432 (1)
+  K12: mean (weight)              88.375 (2)  192.8182 (1)
+  K13: mean (weight)             96.4091 (2)  232.9886 (1)
+  K14: mean (weight)            104.4432 (3)            --
+  K15: mean (weight)            112.4773 (5)            --
+  K16: mean (weight)            120.5114 (1)            --
+  K17: mean (weight)            128.5455 (6)            --
+  K18: mean (weight)            136.5795 (2)            --
+  K19: mean (weight)            144.6136 (3)            --
+  K20: mean (weight)            152.6477 (2)            --
+  K21: mean (weight)            160.6818 (1)            --
+  K22: mean (weight)              176.75 (4)            --
+  K23: mean (weight)            192.8182 (2)            --
+  K24: mean (weight)            273.1591 (2)            --
+  K25: mean (weight)            297.2614 (3)            --
+  K26: mean (weight)            393.6705 (1)            --
+  K27: mean (weight)             441.875 (1)            --
+  K28: mean (weight)            490.0795 (1)            --
+  K29: mean (weight)            586.4886 (2)            --
+  K30: mean (weight)            666.8295 (8)            --
+  K31: mean (weight)                 707 (1)            --
+
+capital_run_length_total:
+  [# kernels]                             45            32
+  [std. dev]                        252.8426      242.3075
+  [precision]                        19.7381       19.7381
+  K1: mean (weight)                    0 (3)        0 (23)
+  K2: mean (weight)              19.7381 (6)  19.7381 (31)
+  K3: mean (weight)             39.4762 (14)  39.4762 (28)
+  K4: mean (weight)             59.2143 (14)   59.2143 (9)
+  K5: mean (weight)              78.9524 (2)   78.9524 (9)
+  K6: mean (weight)              98.6905 (5)  98.6905 (15)
+  K7: mean (weight)            118.4286 (11)  118.4286 (5)
+  K8: mean (weight)             138.1667 (8)  138.1667 (5)
+  K9: mean (weight)             157.9048 (8)  157.9048 (3)
+  K10: mean (weight)            177.6429 (6)  177.6429 (5)
+  K11: mean (weight)             197.381 (4)   197.381 (2)
+  K12: mean (weight)             217.119 (5)   217.119 (2)
+  K13: mean (weight)            256.5952 (8)  236.8571 (2)
+  K14: mean (weight)            276.3333 (5)  256.5952 (1)
+  K15: mean (weight)            296.0714 (7)  276.3333 (3)
+  K16: mean (weight)            315.8095 (2)  315.8095 (1)
+  K17: mean (weight)            355.2857 (3)  335.5476 (4)
+  K18: mean (weight)            453.9762 (7)  394.7619 (2)
+  K19: mean (weight)            513.1905 (4)     414.5 (2)
+  K20: mean (weight)            532.9286 (1)  453.9762 (1)
+  K21: mean (weight)            552.6667 (4)  552.6667 (1)
+  K22: mean (weight)             611.881 (1)   611.881 (2)
+  K23: mean (weight)            690.8333 (1)  690.8333 (2)
+  K24: mean (weight)            730.3095 (3)  710.5714 (2)
+  K25: mean (weight)            769.7857 (1)  730.3095 (1)
+  K26: mean (weight)            848.7381 (1)  907.9524 (2)
+  K27: mean (weight)            888.2143 (2) 1006.6429 (1)
+  K28: mean (weight)            967.1667 (2) 1105.3333 (1)
+  K29: mean (weight)            986.9048 (2) 1144.8095 (1)
+  K30: mean (weight)           1006.6429 (2) 1579.0476 (4)
+  K31: mean (weight)            1046.119 (2) 2052.7619 (1)
+  K32: mean (weight)           1105.3333 (3) 3177.8333 (1)
+  K33: mean (weight)           1144.8095 (1)            --
+  K34: mean (weight)           1263.2381 (3)            --
+  K35: mean (weight)           1302.7143 (1)            --
+  K36: mean (weight)           1322.4524 (2)            --
+  K37: mean (weight)           1342.1905 (7)            --
+  K38: mean (weight)           1421.1429 (2)            --
+  K39: mean (weight)           1559.3095 (1)            --
+  K40: mean (weight)           2052.7619 (1)            --
+  K41: mean (weight)           2190.9286 (1)            --
+  K42: mean (weight)           2230.4048 (1)            --
+  K43: mean (weight)           2763.3333 (1)            --
+  K44: mean (weight)           3296.2619 (2)            --
+  K45: mean (weight)                3316 (2)            --
+
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.33 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1023               74.1304 %
+Incorrectly Classified Instances       357               25.8696 %
+Kappa statistic                          0.4862
+Mean absolute error                      0.257 
+Root mean squared error                  0.5028
+Relative absolute error                 51.4003 %
+Root relative squared error            100.5543 %
+Total Number of Instances             1380     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,968    0,478    0,662      0,968    0,786      0,545    0,938     0,914     1
+                 0,522    0,032    0,943      0,522    0,672      0,545    0,935     0,923     0
+Weighted Avg.    0,741    0,252    0,805      0,741    0,728      0,545    0,936     0,919     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 657  22 |   a = 1
+ 335 366 |   b = 0
+
