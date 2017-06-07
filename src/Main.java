@@ -17,8 +17,8 @@ public class Main {
         }
 
 
-        for (float[] ints : GetArrayFromFile("test.txt")) {
-            for (float anInt : ints) {
+        for (double[] ints : GetArrayFromFile("test.txt")) {
+            for (double anInt : ints) {
                 System.out.println(anInt+"*");
             }
         }
@@ -30,7 +30,7 @@ public class Main {
         //FileAcces.WriteListIn(fileToSavePlus,liste);
     }
 
-    private static float[][] GetArrayFromFile(String name){
+    private static double[][] GetArrayFromFile(String name){
         String infosBruts = FileAcces.ReadFrom(name);
 
         String[] infos = infosBruts.split("@data");//commencer à @data
@@ -38,11 +38,11 @@ public class Main {
         String lines[] = infos[1].split("\\r?\\n");//couper au saut de lignes
         lines = Arrays.copyOfRange(lines, 1, lines.length);//enlever la première ligne ou il n'y a rien
         int count = lines[0].length() - lines[0].replace(",", "").length();
-        float[][] formated = new float[lines.length][count];
+        double[][] formated = new double[lines.length][count];
         for (int i = 0; i < lines.length; i++) {
             String[] valeursSepares = lines[i].split(",");//séparer à chaque ,
             for (int j = 0; j < count; j++) {
-                formated[i][j] = Float.parseFloat(valeursSepares[j]);// tout insérer dans le tableau
+                formated[i][j] = Double.parseDouble(valeursSepares[j]);// tout insérer dans le tableau
             }
         }
         return formated;
